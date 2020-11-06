@@ -299,6 +299,7 @@ export default {
       }
       return categoryLink(this.$store.getters.defaultCategory);
     },
+    // eslint-disable-next-line vue/return-in-computed-property
     clip() {
       if (this.existedChannel) {
         const template = (this.currentChannel.HlsUrlTemplate ||
